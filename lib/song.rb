@@ -53,4 +53,5 @@ class Song
     song_name.artist_name = (title.split(" - ")[0])
     self.all << song_name
     song_name
+  end
 end
