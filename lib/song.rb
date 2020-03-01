@@ -54,4 +54,8 @@ class Song
     self.all << song_name
     song_name
   end
+
+  def self.destroy_all
+    self.all.clear
+  end
 end
