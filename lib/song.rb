@@ -45,4 +45,5 @@ class Song
     song_name.name = (title.split(" - ")[1].chomp(".mp3"))
     song_name.artist_name = (title.split(" - ")[0])
     self.all << song_name
+  end
 end
