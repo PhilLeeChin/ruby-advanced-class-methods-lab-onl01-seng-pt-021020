@@ -14,7 +14,4 @@ class Song
     song = self.new
   end
 
-
-
-
 end
