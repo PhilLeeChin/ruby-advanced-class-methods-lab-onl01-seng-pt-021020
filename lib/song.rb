@@ -12,7 +12,7 @@ class Song
 
   def self.create
     song_name = self.new
-    self.all << song_name
+    #self.all << song_name
     song_name
   end
 
@@ -35,4 +35,7 @@ class Song
   def self.find_or_create_by_name(title)
     self.find_by_name(title) == nil ? self.create_by_name(title) : self.find_by_name(title)
   end
+
+  def self.alphabetical
+
 end
