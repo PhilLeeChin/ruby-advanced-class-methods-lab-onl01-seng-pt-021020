@@ -29,6 +29,9 @@ class Song
   end
 
   def self.find_by_name(title)
+    self.all.each do |song_name|
+      song_name == title
+    end
     self.all.include? (title)
   end
 
